@@ -30,13 +30,13 @@ composer require soneadmin/sone-menus
 Publish the config:
 
 ```bash
-$ php artisan vendor:publish --provider="Sequelone\Sone\SoneMenusServiceProvider" --tag="config"
+$ php artisan vendor:publish --provider="Sequelone\Sone\Menus\SoneMenusServiceProvider" --tag="config"
 ```
 
 Publish the migrations:
 
 ```bash
-$ php artisan vendor:publish --provider="Sequelone\Sone\SoneMenusServiceProvider" --tag="migrations"
+$ php artisan vendor:publish --provider="Sequelone\Sone\Menus\SoneMenusServiceProvider" --tag="migrations"
 ```
 
 ## 🙌 Usage
